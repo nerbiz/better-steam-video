@@ -1,0 +1,10 @@
+{
+  "name": "Better Steam Video",
+  "version": "0.1",
+  "description": "Chrome extenstion that shows a better Steam video player",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
