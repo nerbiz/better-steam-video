@@ -1,10 +1,12 @@
 {
-  "name": "Better Steam Video",
-  "version": "0.1",
-  "description": "Chrome extenstion that shows a better Steam video player",
   "manifest_version": 2,
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+  "name": "Better Steam Video",
+  "version": "0.1.0",
+  "description": "Chrome extension that shows a better Steam video player",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://store.steampowered.com/*"]
+    }
+  ]
 }
